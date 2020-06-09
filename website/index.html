@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+<div class="other-features">
+    <h1>Weather Journal App</h1>
+    <div>
+        <label for="zip">Enter zip code</label>
+        <input type="text" id="zip" placeholder="enter zip code here">
+        or
+        <button id="locationButton">get location</button>
+    </div>
+
+    <div class="holder feel">
+        <label for="feelings"> How are you feeling today</label>
+        <textarea id="feelings" class="myInput" placeholder="Enter Your Feelings here" rows="4" cols="20"></textarea>
+        <button id="generate" type="submit"> Generate </button>
+    </div>
+</div>
+<div class="holder entry">
+    <div id="entryHolder">
+    </div>
+</div>
+
+<div class="location">
+    <h1 id = "date" class="location-timezone">
+        TimeZone
+
+    </h1>
+    </div>
+
+<div class="temperature">
+    <div class="temperature-section">
+        <h2 id="temp">
+            34
+        </h2>
+        <span>°F</span>
+    </div>
+    <div id="icon"><img id="wicon" src="" alt="Weather icon"></div>
+
+    <div class="temperature-description">
+        <div class="title">Weather Summary</div>
+
+        it's wet
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+
+</html>
