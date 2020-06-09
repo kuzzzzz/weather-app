@@ -3,7 +3,7 @@
   "description": "app that tells the weather of your current location",
   "version": "0.0.1",
   "engines": {
-    "npm": "6.x"
+    "node": "12.x"
   },
   "main": "local-server.js",
   "dependencies": {
